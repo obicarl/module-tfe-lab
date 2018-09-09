@@ -11,7 +11,6 @@ variable "region" {
 variable "subnet_id" {
   description = "AWS Subnet to which the host should be provisioned."
   type = "string"
-  default = ''
 }
 
 variable "security_groups" {
@@ -70,5 +69,4 @@ variable "node_name" {
 variable "redhat_ami" {
   description = "AWS Instance AMI"
   type = "string"
-  default =  ""
 }
