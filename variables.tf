@@ -5,7 +5,7 @@
 # AWS specific variables
 variable "region" {
   description = "AWS Region to which the servers should be provisioned"
-  default = ""
+  default = {}
 }
 
 variable "subnet_id" {
